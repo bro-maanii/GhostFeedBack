@@ -1,3 +1,4 @@
+
 import EmailTemplate from "@/helper/Email-template";
 import Image from "next/image";
 
@@ -9,6 +10,8 @@ export default function Home() {
         Welcome to GhostFeedback, a platform where you can share your feedback
         anonymously.
       </p>
+
+
     </div>
   );
 }
