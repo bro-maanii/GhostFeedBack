@@ -1,4 +1,4 @@
-import { Mongoose, Schema } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 
 export interface IMessages {
@@ -67,3 +67,7 @@ const UserSchema: Schema<IUser> = new Schema<IUser>({
     }
     }
 );
+
+const User = mongoose.models.User || mongoose.model('User', UserSchema);
+
+export default User;
