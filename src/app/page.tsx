@@ -7,6 +7,8 @@ export default function Home() {
         Welcome to GhostFeedback, a platform where you can share your feedback
         anonymously.
       </p>
+
+
     </div>
   );
 }
